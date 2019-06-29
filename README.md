@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/azPHP/important.svg?branch=master)](https://travis-ci.com/azPHP/important)
+[![Build Status](https://travis-ci.org/azPHP/important.svg?branch=master)](https://travis-ci.com/azPHP/important)
 
 # important
 Simple library showing how to use an inverse generator to act as a batch importer
