@@ -1,0 +1,11 @@
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <testsuite name="importer">
+        <directory>tests</directory>
+    </testsuite>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src</directory>
+            <file>/path/to/file</file>
+        </whitelist>
+    </filter>
+</phpunit>
