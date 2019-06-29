@@ -4,8 +4,6 @@
 namespace AzPHP\Important;
 
 
-use function foo\func;
-
 class Importer
 {
     public static function createImporter(
@@ -18,7 +16,9 @@ class Importer
             $value = yield;
 
             if (null === $value) {
-                $batchImport($batch);
+                if (!empty($batch)) {
+                    $batchImport($batch);
+                }
                 break;
             }
 
