@@ -5,7 +5,7 @@ Simple library showing how to use an inverse generator to act as a batch importe
 
 ## Configuration
 
-`composer require `
+`composer require azphp/important`
 
 ## Usage
 
